@@ -351,7 +351,7 @@ img {
 .shop__card{
   position: relative;
   background: var(--gradient-card);
-  padding: 5.75rem .75rem 1.25rem .75rem;
+  padding: 5.75rem 0.75rem 2.5rem 0.75rem;
   border: 2px solid var(--first-color-light);
   border-radius: 1rem;
 }
@@ -379,8 +379,8 @@ img {
 
 .shop__button{
   position: absolute;
-  right: .75rem;
-  bottom: .75rem;
+  right: 0.75rem;
+  bottom: 0.75rem;
   outline: none;
   border: none;
   background-color: var(--white-color);
@@ -398,11 +398,15 @@ img {
 
 .shop__icon {
   position: absolute;
-  top: 2rem; /* Adjust this value based on your specific design needs */
+  top: 2rem; 
   left: 50%;
   transform: translateX(-50%);
-  font-size: 7rem; /* Icon size, adjust as needed */
+  font-size: 7rem; 
   
+}
+
+.shop__description{
+  margin-bottom: 2rem; 
 }
 
 
